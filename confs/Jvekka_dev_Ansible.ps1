@@ -42,16 +42,14 @@ executeScript "VSCode.ps1";
 executeScript "coreApps.ps1";
 
 
-# Install MS developer tools
-Install-Module -Force Az
-Install-Module -Force posh-git
+# Install MS developer tools | Not doing anything currently with Az/O365
+#   Install-Module -Force Az
+#   Install-Module -Force posh-git
 
 # Install tools in WSL instance
 write-host "Installing tools inside the WSL distro..."
 Ubuntu1804 run apt install ansible -y
 Ubuntu1804 run apt install nodejs -y
-Ubuntu1804 run apt update
-Ubuntu1804 run apt upgrade -y
 
 # personalize
 choco install -y microsoft-teams

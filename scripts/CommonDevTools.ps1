@@ -4,7 +4,7 @@ choco install -y git --package-parameters="'/GitAndUnixToolsOnPath /WindowsTermi
 choco install -y sysinternals
 choco install -y powershell-core
 choco install -y microsoft-windows-terminal
-choco install -y azure-cli
+# choco install -y azure-cli | Not doing anything with Az/O365 currently
 choco install -y vagrant
 
 # vscode installed in own script
