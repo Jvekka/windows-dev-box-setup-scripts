@@ -60,15 +60,15 @@ choco install -y franz
 choco install -y spotify
 
 # Set desktop wallpaper randomly from Unsplash.com
-New-Item -ItemType Directory C:\dwf-projects
-New-Item -ItemType Directory C:\dwf-projects\Boxstarter
-Set-Location C:\dwf-projects
+New-Item -ItemType Directory C:\Jvekka-projects
+New-Item -ItemType Directory C:\Jvekka-projects\Boxstarter
+Set-Location C:\Jvekka-projects
 
 Add-Type -AssemblyName System.Windows.Forms
 $monitorResolution = "{0}x{1}" -f [System.Windows.Forms.SystemInformation]::PrimaryMonitorSize.Width,[System.Windows.Forms.SystemInformation]::PrimaryMonitorSize.Height
 $unsplashWithRes = 'https://source.unsplash.com/random/'+$monitorResolution+'/?computer,tech'
-Invoke-WebRequest -Uri $unsplashWithRes -Method Get -ContentType image/jpeg -OutFile 'C:\dwf-projects\Boxstarter\bg.jpg'
-Set-ItemProperty -path 'HKCU:\Control Panel\Desktop\' -name wallpaper -value 'C:\dwf-projects\Boxstarter\bg.jpg'
+Invoke-WebRequest -Uri $unsplashWithRes -Method Get -ContentType image/jpeg -OutFile 'C:\Jvekka-projects\Boxstarter\bg.jpg'
+Set-ItemProperty -path 'HKCU:\Control Panel\Desktop\' -name wallpaper -value 'C:\Jvekka-projects\Boxstarter\bg.jpg'
 rundll32.exe user32.dll, UpdatePerUserSystemParameters
 RefreshEnv
 
