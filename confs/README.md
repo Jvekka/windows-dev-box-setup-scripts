@@ -1,5 +1,5 @@
 # How to run the scripts
-Before you begin, please read the [Legal](#Legal) section.
+Forked from Microsoft windows-dev-box-setup-scripts[https://github.com/microsoft/windows-dev-box-setup-scripts]
 
 To run a recipe script, click a link in the table below from your target machine. This will download the Boxstarter one-click application, and prompt you for Boxstarter to run with Administrator privileges (which it needs to do its job). Clicking yes in this dialog will cause the recipe to begin. You can then leave the job unattended and come back when it's finished.
 
@@ -13,8 +13,8 @@ These scripts should cover a lot of what you need but will not likely match your
 
 |Click link to run  |Description  |
 |---------|---------|
-|<a href='http://boxstarter.org/package/url?https://raw.githubusercontent.com/Microsoft/windows-dev-box-setup-scripts/master/demos/chocolateyfest2018.ps1'>ChocolateyFest 2018</a>     | DevOps tools and some examples of personalization |
-|     | Add to this list by submitting a PR with your example configuration!        |
+|<a href='http://boxstarter.org/package/url?https://raw.githubusercontent.com/Jvekka/windows-dev-box-setup-scripts/master/confs/Jvekka_dev_Ansible.ps1'>Jvekka's personal</a>     | For Ansible, Vagrant and Powershell development |
+|     | Should I PR to Microsoft public repository?        |
 
 # Contributing
 Do you want to contribute? We would love your help. Here are our <a href="CONTRIBUTING.md">contribution guidelines</a>.
