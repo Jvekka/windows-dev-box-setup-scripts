@@ -14,7 +14,7 @@ These scripts should cover a lot of what you need but will not likely match your
 |Click link to run  |Description  |
 |---------|---------|
 |<a href='http://boxstarter.org/package/url?https://raw.githubusercontent.com/Jvekka/windows-dev-box-setup-scripts/master/confs/Jvekka_dev_Ansible.ps1'>Jvekka's personal</a>     | For Ansible, Vagrant and Powershell development |
-|     | Should I PR to Microsoft public repository?        |
+<a href='http://boxstarter.org/package/url?https://raw.githubusercontent.com/Jvekka/windows-dev-box-setup-scripts/master/confs/Jvekka_wo_WSL.ps1'>Jvekka's personal without WSL</a>     | Ansible development without WSL. Can be used with VMs |
 
 # Contributing
 Do you want to contribute? We would love your help. Here are our <a href="CONTRIBUTING.md">contribution guidelines</a>.
