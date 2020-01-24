@@ -11,6 +11,13 @@ Ubuntu1804 install --root
 Ubuntu1804 run apt update
 Ubuntu1804 run apt upgrade -y
 
+# Install Ansible
+#   https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-ansible-on-ubuntu
+Ubuntu1804 run apt update
+Ubuntu1804 run apt install software-properties-common
+Ubuntu1804 run apt-add-repository --yes --update ppa:ansible/ansible
+Ubuntu1804 run apt install ansible
+
 <#
 NOTE: Other distros can be scripted the same way for example:
 
